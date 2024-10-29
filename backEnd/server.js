@@ -7,7 +7,9 @@ const PORT = process.env.PORT || 5001;
 // connect to database
 connectDb();
 
-// Testing route :)
-app.get("/", (req,res) => res.send('Hello, world'))
+// Init
+app.use(express.json({ extended: false }))
+
+app.use("/api/users", require("./routes/api/users"));
 
 app.listen(5001,() => console.log(`server started port ${PORT}`))
