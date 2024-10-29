@@ -18,6 +18,7 @@ router.post('/',
 [
     check('email','Email harus valid').isEmail(),
     check('description','Deskripsi wajib isi').not().isEmpty(),
+    check('date','Tanggal wajib isi').not().isEmpty(),
     check('password','Password harus minimal 4 karakter').isLength({
         min: 4,
     })
