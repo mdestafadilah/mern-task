@@ -10,6 +10,7 @@ connectDb();
 // Init
 app.use(express.json({ extended: false }))
 
+app.use("/api/auth", require("./routes/api/auth"));
 app.use("/api/users", require("./routes/api/users"));
 
 app.listen(5001,() => console.log(`server started port ${PORT}`))
