@@ -1,3 +1,4 @@
 {
-    "mongodb_uri":"mongodb://127.0.0.1:27017/task"
+    "mongodb_uri":"mongodb://127.0.0.1:27017/task",
+    "jwtsecret":"secrettoken"
 }
