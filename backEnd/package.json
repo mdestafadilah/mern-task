@@ -1,0 +1,22 @@
+{
+  "name": "task-backend",
+  "version": "1.0.0",
+  "description": "Backend MERN Task for Remote Freelance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdestafadilah/mern-task.git"
+  },
+  "keywords": [
+    "remote"
+  ],
+  "author": "mdestafadilah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdestafadilah/mern-task/issues"
+  },
+  "homepage": "https://github.com/mdestafadilah/mern-task#readme"
+}
